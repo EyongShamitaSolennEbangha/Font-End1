@@ -1,0 +1,398 @@
+.absolute {
+  background-image: url(img/image-hero-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+}
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+.ab1 {
+  color: white;
+  font-size: 2rem;
+}
+.ab2 {
+  display: flex;
+  gap: 90px;
+}
+.ab2 a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  margin-top: 53px;
+}
+.one-div {
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgb(241, 234, 234);
+  z-index: 7;
+  border-radius: 2rem;
+  width: 620px;
+  margin: auto;
+  height: 200px;
+  position: relative;
+  bottom: 70px;
+}
+.btn {
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 {
+  background-color: rgb(43, 124, 107);
+  border: none;
+  border-radius: 3rem;
+  color: white;
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: rgb(255, 244, 233);
+  border: none;
+  border-radius: 3rem;
+  color: rgb(43, 124, 107);
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.btn2 {
+  display: flex;
+  gap: 20px;
+}
+.btn2 .solid {
+  color: white;
+}
+.btn2:hover {
+  background-color: burlywood;
+  color: black;
+}
+body {
+  background-color: rgb(255, 244, 233);
+}
+
+.two {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 580px;
+  margin: auto;
+  padding: 60px 20px 0 20px;
+  height: 140px;
+  bottom: 30px;
+  position: relative;
+
+  line-height: 1px;
+  border-radius: 2rem;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgb(241, 234, 234);
+  z-index: 5;
+}
+
+.progress {
+  width: 100%;
+  height: 9px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: rgb(241, 234, 234);
+  position: relative;
+  line-height: 40px;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  border-radius: 5px;
+  height: inherit;
+  background-color: rgb(43, 124, 107);
+}
+.white {
+  height: auto;
+  background-color: white;
+  margin: auto;
+  width: 580px;
+  line-height: 36px;
+  border-radius: 2rem;
+  padding: 60px 20px 20px 20px;
+  box-shadow: 1px 1px 1px 1px rgb(241, 234, 234);
+}
+.white1 {
+  border: 1px solid pink;
+  margin: 20px 20px;
+  border-radius: 0.6rem;
+  padding: 10px 10px 10px 10px;
+}
+.mixed {
+  display: flex;
+  justify-content: space-between;
+}
+.mail {
+  display: flex;
+  padding: 20px 20px;
+
+  justify-content: space-between;
+}
+.mail1 button {
+  border: none;
+  font-size: 30px;
+  background-color: white;
+}
+.mail2 button {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(50, 126, 100);
+  color: white;
+
+  border-radius: 3rem;
+  padding: 15px 15px;
+}
+.white2 {
+  border: 1px solid pink;
+  margin: 20px 20px;
+  border-radius: 0.6rem;
+  padding: 10px 10px 0px 10px;
+}
+.mixed2 {
+  display: flex;
+  justify-content: space-between;
+}
+.mail3 {
+  display: flex;
+  padding: 20px 20px;
+
+  justify-content: space-between;
+}
+.mail4 button {
+  border: none;
+
+  font-size: 30px;
+  background-color: white;
+}
+.mail5 button {
+  border: none;
+  background-color: rgb(57, 199, 166);
+  color: white;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 15px 15px;
+}
+
+.white3 {
+  border: 1px solid pink;
+  margin: 20px 20px;
+  border-radius: 0.6rem;
+  padding: 10px 10px 5px 10px;
+}
+.mixed3 {
+  display: flex;
+  justify-content: space-between;
+}
+.mail4 {
+  display: flex;
+  padding: 20px 20px;
+  justify-content: space-between;
+}
+.mail6 button {
+  border: none;
+  font-size: 30px;
+
+  background-color: white;
+}
+.mail7 button {
+  border: none;
+  background-color: rgb(199, 201, 200);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3rem;
+  padding: 15px 15px;
+}
+
+.em {
+  font-size: 13px;
+  bottom: 40px;
+}
+
+.style {
+  background-color: white;
+  padding: 30px 30px;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  height: 400px;
+  top: 50px;
+  z-index: 19;
+  left: 0;
+  margin: auto;
+  width: 400px;
+
+  animation-name: animatestyle;
+  animation-duration: 2s;
+}
+.style p {
+  font-size: 20px;
+  line-height: 30px;
+}
+.stylee {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.check {
+  background-color: rgb(41, 126, 119);
+  color: white;
+  border-radius: 120px;
+  padding: 20px 20px;
+  width: 20px;
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+.bbt {
+  border: none;
+  background-color: rgb(41, 126, 119);
+  color: white;
+  border-radius: 3rem;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  margin: auto;
+}
+@keyframes animatestyle {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 30%;
+    opacity: 1;
+  }
+}
+
+.classone {
+  border: 1px solid pink;
+  margin-bottom: 15px;
+  width: 560px;
+  padding: 10px 10px;
+  border-radius: 0.3rem;
+}
+.classtwo {
+  border: 1px solid pink;
+  margin-bottom: 15px;
+  width: 560px;
+  padding: 10px 10px;
+}
+.classthree {
+  border: 1px solid pink;
+  margin-bottom: 15px;
+  width: 560px;
+  padding: 10px 10px;
+}
+.classfour {
+  border: 1px solid pink;
+  width: 560px;
+  padding: 10px 10px;
+}
+
+.flexme {
+  display: flex;
+  justify-content: space-around;
+}
+.popups {
+  background-color: white;
+  padding: 30px 30px;
+  border-radius: 1rem;
+  text-align: center;
+  position: relative;
+  height: auto;
+  top: 50px;
+  z-index: 19;
+  left: 0;
+  margin: auto;
+  width: 600px;
+
+  animation-name: animatestyle;
+  animation-duration: 2s;
+}
+.Pledge {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pledgy{
+  display: flex;
+  gap: 20px;
+}
+
+.pledge2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pledge3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.popup {
+  display: none;
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.below {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.beloww{
+  display: none;
+}
+
+.belowww{
+  display: none;
+}
+
+.belowwww{
+  display: none;
+}
+
+#Continue {
+  border: none;
+  background-color: rgb(57, 199, 166);
+  color: white;
+  cursor: pointer;
+  border-radius: 3rem;
+  padding: 15px 15px;
+  width: 100px;
+}
+.node {
+  cursor: pointer;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 3rem;
+  border: 1px solid pink;
+  padding: 15px 15px;
+}
+
+.enter button{
+  border: none;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.bottom{
+  border-bottom: 1px solid rgb(199, 199, 199);
+  border-bottom-width: 1px;
+  border-bottom-style:solid ;
+}
